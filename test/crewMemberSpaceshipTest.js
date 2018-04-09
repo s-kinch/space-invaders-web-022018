@@ -44,6 +44,7 @@ describe("ship with a crew", () => {
       katie.setsInvisibility();
       expect(aluminumFalcon.cloaked).to.eq(false);
 
+
       jon.setsInvisibility();
       expect(aluminumFalcon.cloaked).to.eq(true);
     });
